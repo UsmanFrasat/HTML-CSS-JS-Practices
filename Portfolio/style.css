@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+
+body {
+
+	color: #081B29;
+	font-family: "Poppins", sans-serif;
+  	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 16px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 1.2rem;
+}
+
+.U_list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 3rem;
+}
+
+.listLink {
+	text-decoration: none;
+}
+
+.L_list {
+	color: #081B29;
+}
+
+.section1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	color: #081B29; 	
+}
+
+
+.section2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section2 ul {
+	list-style: none;
+	/*border: 1px solid #00A6EA;*/
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+	width: 350px;
+	padding: 20px;
+	margin: 20px;
+	background-color: #ffffff;
+}
+
+
+
+.section2 ul li {
+	text-decoration: none;
+	color: #081B29;	
+
+
+}
+
+
+#listhead {
+	text-align: center;
+}
+
+.section3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+	color: #081B29;	
+	font-size: 1rem;
+
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn1, .btn2 {
+	text-align: center;
+	background-color: #00A6EA;
+	text-decoration: none;
+	color: #081B29;
+	width: 150px;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 15px;
+
+}
+
+.btn2 {
+	text-align: center;
+	background-color: #F6F9FA;
+	color: #00A6EA;
+	text-decoration: none;
+	border: 1px solid #00A6EA;
+}
+
+
+
+
+/*.section2 ul:hover {
+	transition-delay: 0.1s;
+	transition-duration: 0.5s;
+	border: 1px solid #00A6EA;
+	box-shadow: 2px 2px 2px #00A6EA;
+}*/
+
+
+.L_list:hover {
+	border-bottom: 1px solid black;
+
+}
+
+
+.btn1:hover {
+	background-color: #F6F9FA;
+	border: 1px solid #00A6EA;
+	color: #00A6EA;
+	box-shadow: 2px 2px 2px grey;
+	font-weight: 600;
+}
+
+.btn2:hover {
+	background-color: green;
+	border: 1px solid #F6F9FA;
+	color: #F6F9FA;
+	font-weight: 200;
+}
